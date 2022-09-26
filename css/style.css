@@ -1,5 +1,4 @@
 /* GENERAL */
-
 *{
   margin: 0;
   padding: 0;
@@ -25,20 +24,18 @@ img{
 
 h3{
   font-size: 2rem;
-  margin: 60px 0;
 }
 
 h4{
   color: #0084FD;
   font-size: 1.4rem;
-  margin-bottom: 40px;
 }
 
 h5{
   text-transform: uppercase;
   font-weight: normal;
-  margin: 40px 0px;
   font-size: 1.2rem;
+  margin: 40px 0px;
 }
 
 .container{
@@ -49,9 +46,6 @@ h5{
 /* >>> CARD */
 .card{
   width: 100%;
-  /* DEBUG */
-  min-height: 100px;
-  /* ---- */
   border-radius: 18px;
   margin: 25px 0;
   padding: 40px 30px;
@@ -120,12 +114,14 @@ h5{
 }
 /* <<< BUTTON */
 
+/* >>> IMG ROUND */
 .round{
   width: 200px;
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
 }
+/* <<< IMG ROUND */
 
 /* UTILITIES */
 
@@ -145,9 +141,9 @@ h5{
 
 header{
   width: 100%;
+  height: 75px;
   position: fixed;
   z-index: 999;
-  height: 75px;
   background-color: #0084FD;
 }
 
@@ -180,6 +176,7 @@ section:nth-of-type(even){
   background-color: #9792E4;
 }
 
+/* >>> DEMO APPLICATION */
 .demo-application .card p{
   font-weight: bold;
   color: #5A6E7F;
@@ -202,10 +199,19 @@ section:nth-of-type(even){
   transform: translateY(4px);
 }
 
+.demo-application .card h4{
+  margin-bottom: 40px;
+}
+
 .demo-application .card .logo-card i{
   color: #0084FD;
   font-size: 5rem;
   padding-bottom: 30px;
+}
+
+/* >>> STRATEGIC PLANNING */
+.strategic-planning h3{
+  margin: 60px 0;
 }
 
 .strategic-planning .card img{
@@ -227,6 +233,7 @@ section:nth-of-type(even){
   color: black;
 }
 
+/* >>> TESTIMONIALS */
 .testimonials h3{
   color: #9792E4;
   margin: 0px 0px 50px;
@@ -246,6 +253,11 @@ section:nth-of-type(even){
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.2rem;
+}
+
+/* >>> BENEFITS */
+.benefits .container > h3{
+  margin: 50px 0px 70px;
 }
 
 .benefits .card h3, .benefits .card h4{
@@ -271,6 +283,7 @@ section:nth-of-type(even){
   max-width: 150px;
 }
 
+/* >>> ABOUT US */
 .about-us h2{
   color: #9792E4;
   font-size: 2.8rem;
@@ -284,7 +297,7 @@ section:nth-of-type(even){
 }
 
 .about-us .box{
-  margin: 20px 0;
+  margin: 40px 0;
 }
 
 .about-us .box .container-round-img{
@@ -292,7 +305,7 @@ section:nth-of-type(even){
   position: relative;
 }
 
-.about-us .box i{
+.about-us .box .container-round-img i{
   color: #9792E4;
   font-size: 4rem;
   position: absolute;
@@ -318,6 +331,7 @@ section:nth-of-type(even){
   padding-right: 5px;
 }
 
+/* >>> GET STARTED */
 .get-started h5{
   color: lightgrey;
   margin-bottom: 20px;
