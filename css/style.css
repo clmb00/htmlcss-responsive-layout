@@ -39,7 +39,7 @@ h5{
 }
 
 .container{
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -247,6 +247,7 @@ section:nth-of-type(even){
 
 .testimonials .card p{
   padding-top: 12px;
+  margin-bottom: 30px;
 }
 
 .testimonials .card span{
@@ -379,4 +380,44 @@ footer p:first-of-type{
 footer a{
   color: #9792E4;
   text-decoration: underline;
+}
+
+/* MEDIA RESPONSIVE */
+
+@media screen and (min-width: 768px) {
+  
+  .demo-application .group-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .demo-application .group-cards .card{
+    width: calc(100%/3 - 20px);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .demo-application .group-cards .card:first-of-type{
+    width: calc(100%/3*2);
+  }
+
+  .demo-application .group-cards .card:first-of-type img{
+    width: 60%;
+  }
+
+  .strategic-planning h3{
+    font-size: 3.5rem;
+  }
+
+  .testimonials .card{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .testimonials .card .card-text{
+    text-align: left;
+    padding-left: 30px;
+  }
+
 }
