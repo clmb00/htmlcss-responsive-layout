@@ -34,6 +34,13 @@ h4{
   margin-bottom: 40px;
 }
 
+h5{
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 40px 0px;
+  font-size: 1.2rem;
+}
+
 .container{
   width: 85%;
   margin: 0 auto;
@@ -195,12 +202,6 @@ section:nth-of-type(even){
   color: black;
 }
 
-.testimonials h5{
-  font-weight: normal;
-  margin: 40px 0px;
-  font-size: 1.2rem;
-}
-
 .testimonials h3{
   color: #9792E4;
   margin: 0px 0px 50px;
@@ -245,10 +246,38 @@ section:nth-of-type(even){
   max-width: 150px;
 }
 
-.box{
-  height: 400px;
+.about-us h2{
+  color: #9792E4;
+  font-size: 2.8rem;
+  margin-top: 65px;
+}
+
+.about-us p{
+  margin-top: 60px;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+}
+
+.about-us .box{
   margin: 20px 0;
-  background-color: violet;
+}
+
+.about-us .box h3{
+  color: #9792E4;
+  margin: 20px 0px;
+}
+
+.about-us .box .button{
+  max-width: 210px;
+  padding: 8px 0px;
+}
+
+.about-us .box .button a{
+  font-weight: normal;
+}
+
+.about-us .box .button a i{
+  padding-right: 5px;
 }
 
 /* FOOTER */
