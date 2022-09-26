@@ -15,8 +15,17 @@ a{
   color: white;
 }
 
+p{
+  line-height: 1.8rem;
+}
+
 img{
   width: 100%;
+}
+
+h3{
+  font-size: 2rem;
+  margin: 60px 0;
 }
 
 h4{
@@ -68,6 +77,15 @@ h4{
 
 .button a{
   font-weight: bold;
+}
+
+.button.circular{
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  line-height: 50px;
+  border-radius: 50%;
+  margin: 0 auto;
 }
 
 .button.back-blue{
@@ -129,7 +147,6 @@ section:nth-of-type(even){
 .demo-application .card p{
   font-weight: bold;
   color: #5A6E7F;
-  line-height: 1.8rem;
 }
 
 .demo-application .card:first-of-type{
@@ -157,6 +174,25 @@ section:nth-of-type(even){
   color: #0084FD;
   font-size: 5rem;
   padding-bottom: 30px;
+}
+
+.strategic-planning .card img{
+  margin: 30px 0;
+}
+
+.strategic-planning .card h4{
+  color: black;
+  margin-bottom: 18px;
+}
+
+.strategic-planning .card p{
+  color: black;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+.strategic-planning .card .button a{
+  color: black;
 }
 
 .box{
