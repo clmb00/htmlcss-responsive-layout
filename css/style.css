@@ -285,6 +285,10 @@ section:nth-of-type(even){
 }
 
 /* >>> ABOUT US */
+.about-us .container{
+  padding-bottom: 40px;
+}
+
 .about-us h2{
   color: #9792E4;
   font-size: 2.8rem;
@@ -298,7 +302,7 @@ section:nth-of-type(even){
 }
 
 .about-us .box{
-  margin: 40px 0;
+  margin-top: 40px;
 }
 
 .about-us .box .container-round-img{
@@ -350,7 +354,8 @@ section:nth-of-type(even){
 
 .get-started .button{
   padding: 20px;
-  margin: 30px;
+  margin: 30px auto;
+  max-width: 270px;
 }
 
 .get-started .button a{
@@ -399,7 +404,7 @@ footer a{
   }
 
   .demo-application .group-cards .card:first-of-type{
-    width: calc(100%/3*2);
+    width: calc(100%/3*2 - 10px);
   }
 
   .demo-application .group-cards .card:first-of-type img{
@@ -418,6 +423,46 @@ footer a{
   .testimonials .card .card-text{
     text-align: left;
     padding-left: 30px;
+  }
+
+  .benefits .group-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .benefits .group-cards .card{
+    width: calc(100%/2 - 20px);
+  }
+
+  .about-us .container{
+    display: flex;
+  }
+
+  .about-us .container-text{
+    width: 55%;
+  }
+
+  .about-us .box{
+    width: 45%;
+    margin-top: 65px;
+    padding-left: 60px;
+  }  
+
+  .get-started .container{
+    width: 70%;
+  }
+
+  .get-started h3{
+    font-size: 2.5rem;
+  }
+
+  .get-started p{
+    padding: 0px 50px;
+  }
+
+  footer .container{
+    width: 60%;
   }
 
 }
