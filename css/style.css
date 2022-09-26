@@ -195,6 +195,33 @@ section:nth-of-type(even){
   color: black;
 }
 
+.testimonials h5{
+  font-weight: normal;
+  margin: 40px 0px;
+  font-size: 1.2rem;
+}
+
+.testimonials h3{
+  color: #9792E4;
+  margin: 0px 0px 50px;
+}
+
+.testimonials p{
+  margin-bottom: 50px;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.testimonials .card p{
+  padding-top: 12px;
+}
+
+.testimonials .card span{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
 .box{
   height: 400px;
   margin: 20px 0;
