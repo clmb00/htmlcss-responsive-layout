@@ -99,12 +99,24 @@ h5{
   margin: 0 auto;
 }
 
+.button:hover{
+  background-color: #aeabe2;
+}
+
 .button.back-blue{
   background-color: #0084FD;
 }
 
+.button.back-blue:hover{
+  background-color: #369eff;
+}
+
 .button.back-white{
   background-color: white;
+}
+
+.button.back-white:hover{
+  background-color: rgb(236, 236, 236);
 }
 /* <<< BUTTON */
 
@@ -125,6 +137,9 @@ h5{
 /* HEADER */
 
 header{
+  width: 100%;
+  position: fixed;
+  z-index: 999;
   height: 75px;
   background-color: #0084FD;
 }
@@ -145,6 +160,10 @@ nav .menu{
 }
 
 /* MAIN */
+
+main{
+  padding-top: 75px;
+}
 
 section{
   padding: 25px 0 50px;
