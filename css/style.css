@@ -24,6 +24,29 @@ img{
   margin: 0 auto;
 }
 
+.card{
+  width: 100%;
+  height: 200px;
+  border-radius: 18px;
+  margin: 24px 0;
+}
+
+.group-cards.enhanced .card, .card.enhanced{
+  border-radius: 48px;
+}
+
+.group-cards.back-blue .card, .card.back-blue{
+  background-color: #B5DDFF;
+}
+
+.group-cards.back-violet .card, .card.back-violet{
+  background-color: #9792E4;
+}
+
+.group-cards.back-white .card, .card.back-white{
+  background-color: white;
+}
+
 /* UTILITIES */
 
 .d-flex{
@@ -63,12 +86,6 @@ nav .menu{
 
 section:nth-of-type(even){
   background-color: #9792E4;
-}
-
-.card{
-  height: 200px;
-  margin: 20px 0;
-  background-color: blue;
 }
 
 .box{
