@@ -24,11 +24,12 @@ img{
   margin: 0 auto;
 }
 
+/* >>> CARD */
 .card{
   width: 100%;
   height: 200px;
   border-radius: 18px;
-  margin: 24px 0;
+  margin: 25px 0;
 }
 
 .group-cards.enhanced .card, .card.enhanced{
@@ -46,6 +47,23 @@ img{
 .group-cards.back-white .card, .card.back-white{
   background-color: white;
 }
+/* <<< CARD */
+
+/* >>> BUTTON */
+.button{
+  border-radius: 20px;
+  background-color: #9792E4;
+}
+
+.button.back-blue{
+  background-color: #0084FD;
+}
+
+.button.back-white{
+  background-color: white;
+  color: black;
+}
+/* <<< BUTTON */
 
 /* UTILITIES */
 
@@ -83,6 +101,10 @@ nav .menu{
 }
 
 /* MAIN */
+
+section{
+  padding: 25px 0 50px;
+}
 
 section:nth-of-type(even){
   background-color: #9792E4;
