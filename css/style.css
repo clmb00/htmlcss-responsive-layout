@@ -26,6 +26,14 @@ a{
   display: flex;
 }
 
+.t-center{
+  text-align: center;
+}
+
+.color-white{
+  color: white;
+}
+
 /* HEADER */
 
 header{
@@ -45,4 +53,24 @@ nav .menu-short{
 
 nav .menu{
   display: none;
+}
+
+/* BODY */
+
+
+/* FOOTER */
+
+footer{
+  min-height: 225px;
+  background-color: #333333;
+  padding: 40px 0;
+}
+
+footer p:first-of-type{
+  margin-bottom: 50px;
+}
+
+footer a{
+  color: #9792E4;
+  text-decoration: underline;
 }
