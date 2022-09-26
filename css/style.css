@@ -287,6 +287,19 @@ section:nth-of-type(even){
   margin: 20px 0;
 }
 
+.about-us .box .container-round-img{
+  width: fit-content;
+  position: relative;
+}
+
+.about-us .box i{
+  color: #9792E4;
+  font-size: 4rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .about-us .box h3{
   color: #9792E4;
   margin: 20px 0px;
