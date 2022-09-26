@@ -79,6 +79,10 @@ h4{
   font-weight: bold;
 }
 
+.button.spacing a{
+  letter-spacing: 3px;
+}
+
 .button.circular{
   width: 50px;
   height: 50px;
@@ -162,10 +166,6 @@ section:nth-of-type(even){
   padding-right: 10px;
 }
 
-.demo-application .card:first-of-type .button a{
-  letter-spacing: 3px;
-}
-
 .demo-application .card:first-of-type img{
   transform: translateY(4px);
 }
@@ -220,6 +220,29 @@ section:nth-of-type(even){
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.2rem;
+}
+
+.benefits .card h3, .benefits .card h4{
+  color: #9792E4;
+}
+
+.benefits .card h3{
+  font-size: 3.5rem;
+  margin: 0;
+}
+
+.benefits .card h4{
+  font-size: 1.5rem;
+  margin: 20px 0px 25px;
+}
+
+.benefits .card p{
+  color: grey;
+  margin-bottom: 30px;
+}
+
+.benefits .card .button{
+  max-width: 150px;
 }
 
 .box{
